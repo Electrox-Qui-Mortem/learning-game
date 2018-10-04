@@ -1,0 +1,39 @@
+
+<html>
+	<head>
+		<title>Omegalords.io</title>
+		<link rel="stylesheet" type="text/css" href="/client/css/style.css">
+		<script src="/socket.io/socket.io.js"></script>
+		<link rel='icon' href='/client/img/favicon.ico' type='image/x-icon'/>
+		<meta property="og:title" content="Omegalords.io">
+		<meta property="og:description" content="Super Fun Game Made By Lexy">
+		<meta property="og:image" content="/client/img/favicon.png">
+		<script>
+			var socket = io();
+		</script>
+	</head>
+	<body>
+		<div class ="modal" id="start">
+			<form class="modal-content" id="enterForm">
+				<h1 id="title">Omegalords.io</h1>
+				<h3 id="enter">Enter the quasar</h3>
+				<label id="enter-label" for="nameyourself">
+					<input id="nameyourself" placeholder="Input Username"/>
+				</label>
+			</form>
+		</div>
+		<canvas id="canvas"></canvas>
+		<div id="chat" style="display:none;">
+			<div id="clist">
+				<ul id="messages"></ul>
+			</div>
+			<form id="form" action="">
+				<input id="m" autocomplete="off" /><button id="play">Send</button>
+			</form>
+		</div>
+	</body>
+		<script src="/client/js/game.js"></script>
+</html>
+{"name":"favicon.ico","date":"2018-10-04T15:12:17.494Z","url":"https://cdn.glitch.com/e9bdca37-b525-4a4a-a0d0-afcac70f78f2%2Ffavicon.ico","type":"image/x-icon","size":3058,"imageWidth":300,"imageHeight":224,"thumbnail":"https://cdn.glitch.com/e9bdca37-b525-4a4a-a0d0-afcac70f78f2%2Ffavicon.ico","thumbnailWidth":300,"thumbnailHeight":224,"dominantColor":null,"uuid":"Qcff2dNrkvAIEevW"}
+{"uuid":"Qcff2dNrkvAIEevW","deleted":true}
+{"name":"favicon.ico","date":"2018-10-04T15:13:19.248Z","url":"https://cdn.glitch.com/e9bdca37-b525-4a4a-a0d0-afcac70f78f2%2Ffavicon.ico","type":"image/x-icon","size":3058,"imageWidth":300,"imageHeight":224,"thumbnail":"https://cdn.glitch.com/e9bdca37-b525-4a4a-a0d0-afcac70f78f2%2Ffavicon.ico","thumbnailWidth":300,"thumbnailHeight":224,"dominantColor":null,"uuid":"HPMwya61ZjAQ3ZB4"}
